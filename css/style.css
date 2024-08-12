@@ -1,0 +1,20 @@
+ .product {
+    background-color: cadetblue;
+ }
+ .card .btn{
+   background-color: brown;
+   color: white;
+transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+ .card .btn:hover{
+background-color: red;
+
+ }
+ #cards{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .mark{
+  background-color: red;
+  color: white;
+ }
